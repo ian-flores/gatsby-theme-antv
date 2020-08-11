@@ -1,5 +1,5 @@
 {
-  "name": "@antv/gatsby-theme-antv",
+  "name": "@ian-flores/gatsby-theme-antv",
   "private": true,
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "workspaces": [
-    "@antv/gatsby-theme-antv",
+    "@ian-flores/gatsby-theme-antv",
     "example"
   ],
   "devDependencies": {
