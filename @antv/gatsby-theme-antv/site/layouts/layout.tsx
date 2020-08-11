@@ -14,14 +14,14 @@ i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     initImmediate: false,
-    fallbackLng: 'zh',
+    fallbackLng: 'es',
     keySeparator: false,
     react: {
       useSuspense: false,
     },
   });
 
-const lngs = ['zh', 'en'];
+const lngs = ['es', 'en'];
 
 interface LayoutProps {
   children: React.ReactElement<any>;
@@ -58,7 +58,7 @@ const Layout: React.FC<LayoutProps> = ({ children, location, footerProps }) => {
           navs {
             slug
             title {
-              zh
+              es
               en
             }
             target
@@ -203,8 +203,6 @@ const Layout: React.FC<LayoutProps> = ({ children, location, footerProps }) => {
       />
       <main className={styles.main}>{children}</main>
       <Footer
-        githubUrl={githubUrl}
-        rootDomain="https://antv.vision"
         footerProps={footerProps}
       />
     </>
